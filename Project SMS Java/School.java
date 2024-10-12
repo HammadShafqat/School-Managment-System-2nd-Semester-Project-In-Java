@@ -16,6 +16,7 @@ public class School {
 		String select1=input.nextLine();
 		if(select1.equals("1")){
 			System.out.print("Please Enter User_Name : ");
+			System.out.print("Hello");
 		while(true){
 			String user_name=input.nextLine();
 			if(user_name.matches("[a-zA-z ]+")){
